@@ -11,4 +11,17 @@ public class Album {
         this.title = title;
         this.year = year;
     }
+
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public int getYear() {
+        return year;
+    }
 }
