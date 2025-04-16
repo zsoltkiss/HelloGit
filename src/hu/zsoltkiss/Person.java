@@ -2,7 +2,11 @@ package hu.zsoltkiss;
 
 public class Person {
 
-    public Person(String fullName) {
+    private String firstName;
+    private String lastName;
 
+    public Person(String fn, String ln) {
+        this.firstName = fn;
+        this.lastName = ln;
     }
 }
