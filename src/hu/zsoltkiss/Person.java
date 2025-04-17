@@ -9,4 +9,12 @@ public class Person {
         this.firstName = fn;
         this.lastName = ln;
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
 }
